@@ -41,7 +41,4 @@ app.get('/', function(req,res){
 
 
 
-server.listen(PORT, function() {
-  console.log('CLUDOS Client: 0.0.1 >> Server listen on port ' + server.address().port);
-  console.log('CLUDOS Client: Start >> 클루도스 클라이언트 프로젝트에 오신것을 환영합니다.');
-});
+app.listen(PORT);
